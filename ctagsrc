@@ -1,0 +1,4 @@
+--langdef=lean
+--langmap=lean:.lean
+--excmd=number
+--regex-lean=/^[ \t]*meta def \([A-Za-z0-9_]\{1,\}\)/\1/t,Test,Test/b
